@@ -1,6 +1,8 @@
-﻿namespace BuberDinner.Infra.Services;
+﻿using BuberDinner.Application.Common.Interfaces.Services;
 
-public class DateTimeProvider
+namespace BuberDinner.Infra.Services;
+
+public class DateTimeProvider : IDateTimeProvider
 {
-    
+    public DateTime UtcNow { get; }
 }
