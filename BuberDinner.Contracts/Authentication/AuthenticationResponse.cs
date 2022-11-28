@@ -4,7 +4,7 @@ namespace BuberDinner.Contracts.Authentication
         Guid Id,
         string FirstName,
         string LastName,
-        string Token,
-        string Email
+        string Email,
+        string Token
     );
 }
